@@ -13,6 +13,7 @@ func isSubsequence(s string, t string) bool {
 
 	fmt.Println(p)
 	fmt.Println(len(s))
+
 	if p == len(s) {
 		return true
 	}
